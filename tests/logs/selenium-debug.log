@@ -1,0 +1,40 @@
+20:05:59.683 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+20:05:59.683 INFO - Launching a standalone Selenium Server
+2017-05-16 20:05:59.698:INFO::main: Logging initialized @201ms to org.seleniumhq.jetty9.util.log.StdErrLog
+20:05:59.742 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+20:05:59.742 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+20:05:59.742 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:05:59.742 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+20:05:59.742 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:05:59.743 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+20:05:59.743 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+2017-05-16 20:05:59.778:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-05-16 20:05:59.807:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@61832929{/,null,AVAILABLE}
+2017-05-16 20:05:59.826:INFO:osjs.AbstractConnector:main: Started ServerConnector@3abbfa04{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-05-16 20:05:59.827:INFO:osjs.Server:main: Started @330ms
+20:05:59.827 INFO - Selenium Server is up and running
+20:06:00.028 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+20:06:00.057 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Index Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+20:06:00.076 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Index Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1494957960344	geckodriver	INFO	Listening on 127.0.0.1:17682
+1494957960464	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox with args ["-marionette"]
+1494957962555	Marionette	INFO	Listening on port 35639
+20:06:02.948 INFO - Detected dialect: W3C
+20:06:02.967 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Index Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+20:06:02.984 INFO - Executing: [get: http://localhost:3000])
+20:06:03.198 INFO - Done: [get: http://localhost:3000]
+20:06:03.207 INFO - Executing: [find elements: By.cssSelector: body])
+20:06:03.256 INFO - Done: [find elements: By.cssSelector: body]
+20:06:03.261 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (e0839d57-6487-4121-ba93-45b5a9f16bb3)] -> css selector: body]])
+20:06:03.325 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (e0839d57-6487-4121-ba93-45b5a9f16bb3)] -> css selector: body]]
+20:06:03.331 INFO - Executing: [find element: By.cssSelector: .title])
+20:06:03.341 INFO - Done: [find element: By.cssSelector: .title]
+20:06:03.344 INFO - Executing: [get text: 1 [[FirefoxDriver: firefox on ANY (e0839d57-6487-4121-ba93-45b5a9f16bb3)] -> css selector: .title]])
+20:06:03.363 INFO - Done: [get text: 1 [[FirefoxDriver: firefox on ANY (e0839d57-6487-4121-ba93-45b5a9f16bb3)] -> css selector: .title]]
+20:06:03.366 INFO - Executing: [delete session: c140a58e-cb6a-4e1b-9869-0c9b29d10010])
+1494957963369	Marionette	INFO	New connections will no longer be accepted
+20:06:03.561 INFO - Done: [delete session: c140a58e-cb6a-4e1b-9869-0c9b29d10010]
